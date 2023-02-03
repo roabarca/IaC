@@ -1,8 +1,8 @@
 $templateFileName = 'azuredeploy.json'
 $templateFileParametersName = 'azuredeploy.parameters.json'
 $env = 'test'
-$project = 'tproj'
-$client = 'tclient'
+$project = 'pdemo'
+$client = 'cdemo'
 
 # Provide the name of the closest Azure region in which you can provision Azure VMs
 # $location = Read-Host -Prompt 'Enter the name of Azure region (i.e. centralus)'
