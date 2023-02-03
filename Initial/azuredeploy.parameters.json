@@ -1,0 +1,24 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2019-04-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+      "objectId": {
+        "value": "GEN-AZUREAD-OBJECTID"
+      },
+      "secretName": {
+        "value": "GEN-UNIQUE"
+      },
+      "secretValue": {
+        "value": "GEN-UNIQUE"
+      },
+      "project": {
+        "value": "pro1"
+      },
+      "client": {
+        "value": "cli1"
+      },
+      "env": {
+        "value": "test"
+      }
+    }
+  }
